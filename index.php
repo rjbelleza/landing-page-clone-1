@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
     <title>Nauto | Roadmap to Improving Fleet Safety</title>
 </head>
 <body>
     <?php include "components/header.html" ?>
+    <?php include "components/hero.html" ?>
 </body>
 </html>

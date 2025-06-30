@@ -1,0 +1,43 @@
+.features {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+.features .content {
+    width: 100%;
+    padding: 60px 150px 60px 150px;
+}
+
+.features .content .text-container {
+    max-width: 700px;
+}
+
+.features .content .text-container .intro-text {
+    font-family: sans-serif;
+}
+
+.features .content .text-container .intro-text h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 130%;
+}
+
+.features .content .text-container .intro-text h5 {
+    font-size: 18px;
+    opacity: .7;
+    line-height: 160%;
+    margin-bottom: 1em;
+}
+
+.features .content .text-container .intro-text ul {
+    margin-top: 0;
+    margin-bottom: 1em;
+    opacity: .7;
+    padding-left: 2rem;
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: bold;
+}

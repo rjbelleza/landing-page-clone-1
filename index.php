@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/hero.css">
     <link rel="stylesheet" href="assets/css/features.css">
+    <link rel="stylesheet" href="assets/css/form.css">
     <title>Nauto | Roadmap to Improving Fleet Safety</title>
 </head>
 <body>
     <?php   
         include "components/header.html";
         include "components/hero.html"; 
-        include "components/features.html"; 
     ?>
+    <div class="main-container">
+        <?php
+            include "components/features.html";
+            include "components/form.html"; 
+        ?>
+    </div>
 </body>
 </html>

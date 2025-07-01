@@ -1,3 +1,8 @@
+.main-container {
+    display: flex;
+    position: relative;
+}
+
 .features {
     display: flex;
     width: 100%;
@@ -11,7 +16,7 @@
 }
 
 .features .content .text-container {
-    max-width: 700px;
+    max-width: 680px;
 }
 
 .features .content .text-container 

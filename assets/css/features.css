@@ -1,6 +1,7 @@
 .main-container {
     display: flex;
     position: relative;
+    padding-bottom: 70px;
 }
 
 .features {

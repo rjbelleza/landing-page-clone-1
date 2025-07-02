@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-top: 1px rgba(21, 23, 26, .2);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer img {
+    margin: 0px 0px 20px;
+}
+
+.footer h6 {
+    font-size: 15px;
+    margin: 0px 0px 7px;
+    opacity: .4;
+}
+
+.footer p {
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    opacity: .4;
+    font-size: 11px;
+    line-height: 140%;
+    font-weight: bold;
+    margin: 0px 0px 40px;
+}
+
+.footer .links a {
+    padding-right: 19px;
+    padding-left: 19px;
+    opacity: .4;
+    font-size: 15px;
+    transition: background-color .2s, opacity .2s, color .2s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer .links a:hover {
+    opacity: 1;
+}
+
+.footer .socials-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.footer .socials-icons #fb {
+    height: 40px;
+    width: 40px;
+}
+
+.footer .socials-icons #linkedin {
+    height: 30px;
+    width: 30px;
+}
+
+.footer .socials-icons #twitter {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .socials-icons #fb, #linkedin {
+    opacity: .4;
+}

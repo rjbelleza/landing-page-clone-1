@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/hero.css">
     <link rel="stylesheet" href="assets/css/features.css">
     <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <title>Nauto | Roadmap to Improving Fleet Safety</title>
 </head>
 <body>
@@ -21,5 +22,6 @@
             include "components/form.html"; 
         ?>
     </div>
+    <?php include "components/footer.html"; ?> 
 </body>
 </html>

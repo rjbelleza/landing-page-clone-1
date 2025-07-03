@@ -23,5 +23,6 @@
         ?>
     </div>
     <?php include "components/footer.html"; ?> 
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

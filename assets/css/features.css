@@ -13,11 +13,11 @@
 
 .features .content {
     width: 100%;
-    padding: 60px 200px 60px 200px;
+    padding: 60px 200px 60px 140px;
 }
 
 .features .content .text-container {
-    max-width: 750px;
+    max-width: 680px;
 }
 
 .features .content .text-container 
